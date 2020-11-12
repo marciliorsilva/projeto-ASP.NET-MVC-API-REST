@@ -13,7 +13,6 @@ namespace ProjetoMVC_ASP.NET_.Models
         [Display(Name = "Descrição")]
         [Required(ErrorMessage = "O campo descrição é obrigatório")]
         public string descricao { get; set; }
-       
-        public List<Produto> Produtos { get; set; }
+      
     }
 }
